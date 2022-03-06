@@ -8,6 +8,6 @@ if 2500<income<=4000 :
     taxation = income-((income*15)//100)
 if 4000<income<=6000 :
     taxation = income-((income*20)//100)
-if income<8000 :
+if income>8000 :
     taxation = income-((income*30)//100)
 print(taxation)
